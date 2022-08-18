@@ -17,6 +17,9 @@ class Item:
     def __str__(self) -> str:
         return f'Product: {self.name} | {self.quantity}x -> {self.price}$ = {self.total_price}$'
 
+    def __repr__(self) -> str:
+        return self.__str__()
+
 
 if __name__ == '__main__':
     item = Item('name', 'url', 1.00, 5)
