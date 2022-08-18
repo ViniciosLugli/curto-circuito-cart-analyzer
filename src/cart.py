@@ -5,6 +5,9 @@ from collections.abc import Generator
 class Cart:
     items = []
 
+    def __init__(self, items: list = []) -> None:
+        self.items = items
+
     def add(self, item: Item) -> None:
         self.items.append(item)
 

@@ -1,6 +1,7 @@
 import json
 import re
 from item import Item
+from cart import Cart
 
 
 class CCJson:
@@ -22,9 +23,13 @@ class CCJson:
     def __get_json_items(self) -> list:
         return self.__read_json()['items']
 
-    @ property
+    @property
     def items(self) -> list:
         return [self.__json_item_to_object(item) for item in self.__get_json_items()]
+
+    @property
+    def as_cart(self) -> Cart:
+        return Cart(self.items)
 
 
 if __name__ == '__main__':

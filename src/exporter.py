@@ -24,6 +24,8 @@ class CsvManager(Manager):
                 line = ",".join(attributes)
                 f.write(f'\n{line}')
 
+            f.write(f'\n\nTotal: ${cart.total_price}')
+
 
 class JsonManager(Manager):
     def __init__(self, filename) -> None:
@@ -35,7 +37,7 @@ class JsonManager(Manager):
         for idx, item in enumerate(cart.items):
             attributes = [str(getattr(item, attr)) for attr in header]
             json_output[idx] = dict(zip(header, attributes))
-
+        json_output['total'] = f'${cart.total_price}'
         with open(self.filename, 'w') as f:
             json.dump(json_output, f, indent=4)
 
@@ -57,5 +59,5 @@ if __name__ == '__main__':
     cart.add(Item('name2', 'url2', 4.00, 2))
     cart.add(Item('name3', 'url3', 6.00, 3))
 
-    print(Exporter.to_csv(cart))
-    print(Exporter.to_json(cart))
+    Exporter.to_csv(cart)
+    Exporter.to_json(cart)
