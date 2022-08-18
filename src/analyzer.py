@@ -1,9 +1,13 @@
 import json
+import re
 from item import Item
 
 
 class CCJson:
     json_file_path = None
+
+    def __remove_ilegal_chars(self, string: str) -> str:
+        return re.sub(r'[^a-zA-Z0-9_\- ]', '', string)
 
     def __init__(self, json_file_path: str) -> None:
         self.json_file_path = json_file_path
@@ -13,12 +17,12 @@ class CCJson:
             return json.load(f)
 
     def __json_item_to_object(self, json_item: dict) -> Item:
-        return Item(str(json_item['product_name']), str(json_item['product_url']), round(float(json_item['product_price_value']), 2), int(json_item['qty']))
+        return Item(self.__remove_ilegal_chars(str(json_item['product_name'])), str(json_item['product_url']), round(float(json_item['product_price_value']), 2), int(json_item['qty']))
 
     def __get_json_items(self) -> list:
         return self.__read_json()['items']
 
-    @property
+    @ property
     def items(self) -> list:
         return [self.__json_item_to_object(item) for item in self.__get_json_items()]
 
