@@ -5,10 +5,10 @@ from collections.abc import Generator
 class Cart:
     items = []
 
-    def add_item(self, item: Item) -> None:
+    def add(self, item: Item) -> None:
         self.items.append(item)
 
-    def remove_item(self, search_item_mask: Item) -> None:
+    def remove(self, search_item_mask: Item) -> None:
         finded = False
         for item in self.items:
             for (k, v) in search_item_mask.__dict__.items():
@@ -38,15 +38,15 @@ class Cart:
 if __name__ == '__main__':
     cart = Cart()
 
-    cart.add_item(Item('name1', 'url1', 1.00, 5))
-    cart.add_item(Item('name2', 'url2', 5.00, 2))
-    cart.add_item(Item('name3', 'url3', 10.00, 3))
+    cart.add(Item('name1', 'url1', 1.00, 5))
+    cart.add(Item('name2', 'url2', 5.00, 2))
+    cart.add(Item('name3', 'url3', 10.00, 3))
 
     print(cart)
     print(cart.total_price)
     print(len(cart))
 
-    cart.remove_item(Item('name2', None, None, None))
+    cart.remove(Item('name2', None, None, None))
 
     item_list = []
     for item in cart:

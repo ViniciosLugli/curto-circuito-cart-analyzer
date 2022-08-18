@@ -20,8 +20,14 @@ class Item:
     def __repr__(self) -> str:
         return self.__str__()
 
+    @staticmethod
+    def header() -> list:
+        return [attr for attr in dir(Item)
+                if not attr.startswith('__') and attr != 'header']
+
 
 if __name__ == '__main__':
     item = Item('name', 'url', 1.00, 5)
     print(item)
     print(item.total_price)
+    print(Item.header())
