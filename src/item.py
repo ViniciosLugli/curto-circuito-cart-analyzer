@@ -12,7 +12,7 @@ class Item:
 
     @property
     def total_price(self) -> float:
-        return self.price * self.quantity
+        return round(self.price * self.quantity, 2)
 
     def __str__(self) -> str:
         return f'Product: {self.name} | {self.quantity}x -> {self.price}$ = {self.total_price}$'
