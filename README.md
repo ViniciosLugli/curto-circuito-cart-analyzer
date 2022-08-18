@@ -14,3 +14,8 @@ A simple cart analyzer to export, by json data in local storage of the browser, 
 > _You can find a json export example in [data folder](./data)_
 
 ## Current features:
+
+-   Loading the cart from local storage cart json and saving to objects items and cart.
+-   Export to CSV and JSON the cart.
+
+> You can add new modules, export to other formats and improve the app... 😃
