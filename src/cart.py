@@ -1,3 +1,4 @@
+from __future__ import annotations
 from item import Item
 from collections.abc import Generator
 
@@ -37,6 +38,9 @@ class Cart:
     def __iter__(self) -> Generator[Item]:
         return iter(self.items)
 
+    def __mul__(self, multiplier: int) -> Cart:
+        return Cart([item * multiplier for item in self.items])
+
 
 if __name__ == '__main__':
     cart = Cart()
@@ -56,3 +60,5 @@ if __name__ == '__main__':
         item_list.append(item)
 
     print(item_list)
+
+    print(cart * 2)

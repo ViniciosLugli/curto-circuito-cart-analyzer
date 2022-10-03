@@ -1,0 +1,269 @@
+{
+    "0": {
+        "name": "Resistor 2K - 1/4W - 5%",
+        "price": "0.09",
+        "quantity": "100",
+        "total_price": "9.0",
+        "url": "https://www.curtocircuito.com.br/resistor-2k-1-4w-5.html"
+    },
+    "1": {
+        "name": "Resistor 1K - 1/4W - 5%",
+        "price": "0.09",
+        "quantity": "100",
+        "total_price": "9.0",
+        "url": "https://www.curtocircuito.com.br/resistor-1k-1-4w-5.html"
+    },
+    "2": {
+        "name": "Aceler\u00f4metro e Girosc\u00f3pio 3 Eixos 6 DOF - MPU6050",
+        "price": "16.65",
+        "quantity": "10",
+        "total_price": "166.5",
+        "url": "https://www.curtocircuito.com.br/modulo-acelerometro-3-eixos-mpu6050.html"
+    },
+    "3": {
+        "name": "Teclado Matricial - Membrana - 4x4",
+        "price": "6.75",
+        "quantity": "10",
+        "total_price": "67.5",
+        "url": "https://www.curtocircuito.com.br/teclado-matricial-membrana-4x4.html"
+    },
+    "4": {
+        "name": "Servo Motor - MG90S",
+        "price": "26.73",
+        "quantity": "10",
+        "total_price": "267.3",
+        "url": "https://www.curtocircuito.com.br/servo-motor-mg90s-towerpro.html"
+    },
+    "5": {
+        "name": "Display 7 Segmentos Vermelho - Anodo Comum",
+        "price": "1.71",
+        "quantity": "20",
+        "total_price": "34.2",
+        "url": "https://www.curtocircuito.com.br/display-7-segmentos-vermelho-anodo-comum.html"
+    },
+    "6": {
+        "name": "Display OLED 128x64 Px - 0.96\" - 4 Pin - Azul",
+        "price": "24.08",
+        "quantity": "10",
+        "total_price": "240.8",
+        "url": "https://www.curtocircuito.com.br/display-oled-128x64-px-0-96-4-pin-azul.html"
+    },
+    "7": {
+        "name": "Trimpot Linear Horizontal - 3386H - 10K",
+        "price": "2.61",
+        "quantity": "20",
+        "total_price": "52.2",
+        "url": "https://www.curtocircuito.com.br/trimpot-linear-horizontal-3386h-10k.html"
+    },
+    "8": {
+        "name": "Sensor de Presen\u00e7a - Piroel\u00e9trico - PIR - HC-SR505",
+        "price": "9.81",
+        "quantity": "10",
+        "total_price": "98.1",
+        "url": "https://www.curtocircuito.com.br/sensor-de-presenca-piroeletrico-pir-hc-sr505.html"
+    },
+    "9": {
+        "name": "Led Difuso Branco - 5mm",
+        "price": "0.23",
+        "quantity": "50",
+        "total_price": "11.5",
+        "url": "https://www.curtocircuito.com.br/led-difuso-branco-5mm.html"
+    },
+    "10": {
+        "name": "Sensor de Gestos Infravermelho - APDS9960",
+        "price": "17.91",
+        "quantity": "10",
+        "total_price": "179.1",
+        "url": "https://www.curtocircuito.com.br/sensor-de-gestos-infravermelho-apds9960.html"
+    },
+    "11": {
+        "name": "Sensor de Dist\u00e2ncia Ultrass\u00f4nico - HC-SR04",
+        "price": "12.42",
+        "quantity": "10",
+        "total_price": "124.2",
+        "url": "https://www.curtocircuito.com.br/sensor-ultrassonico-hc-sr04.html"
+    },
+    "12": {
+        "name": "Sensor \u00d3ptico Reflexivo - TCRT5000",
+        "price": "1.44",
+        "quantity": "30",
+        "total_price": "43.2",
+        "url": "https://www.curtocircuito.com.br/sensor-optico-reflexivo-tcrt5000.html"
+    },
+    "13": {
+        "name": "Sensor de Luminosidade - LDR - 7mm",
+        "price": "1.8",
+        "quantity": "30",
+        "total_price": "54.0",
+        "url": "https://www.curtocircuito.com.br/sensor-de-luminosidade-ldr-7mm.html"
+    },
+    "14": {
+        "name": "Resistor 20K - 1/4W - 5%",
+        "price": "0.09",
+        "quantity": "50",
+        "total_price": "4.5",
+        "url": "https://www.curtocircuito.com.br/resistor-20k-1-4w-5.html"
+    },
+    "15": {
+        "name": "Potenci\u00f4metro Linear - 10K - L20",
+        "price": "2.25",
+        "quantity": "20",
+        "total_price": "45.0",
+        "url": "https://www.curtocircuito.com.br/potenciometro-linear-10k-l20.html"
+    },
+    "16": {
+        "name": "Capacitor Eletrol\u00edtico 100uF / 50V",
+        "price": "0.18",
+        "quantity": "40",
+        "total_price": "7.2",
+        "url": "https://www.curtocircuito.com.br/capacitor-eletrolitico-100uf-50v.html"
+    },
+    "17": {
+        "name": "Capacitor Eletrol\u00edtico 220uF / 35V 8x11 Yageo",
+        "price": "0.3",
+        "quantity": "40",
+        "total_price": "12.0",
+        "url": "https://www.curtocircuito.com.br/capacitor-eletrolitico-220uf-35v-8x11-yageo.html"
+    },
+    "18": {
+        "name": "Capacitor Eletrol\u00edtico 47uF / 50V 6x12",
+        "price": "0.14",
+        "quantity": "40",
+        "total_price": "5.6",
+        "url": "https://www.curtocircuito.com.br/capacitor-eletrolitico-47uf-50v-6x12.html"
+    },
+    "19": {
+        "name": "Capacitor Eletrol\u00edtico 4,7uF / 100V 5x11 Yageo",
+        "price": "0.11",
+        "quantity": "40",
+        "total_price": "4.4",
+        "url": "https://www.curtocircuito.com.br/capacitor-eletrolitico-4-7uf-100v-5x11-yageo.html"
+    },
+    "20": {
+        "name": "Resistor 220R - 1/4W - 5%",
+        "price": "0.09",
+        "quantity": "100",
+        "total_price": "9.0",
+        "url": "https://www.curtocircuito.com.br/resistor-220r-1-4w-5.html"
+    },
+    "21": {
+        "name": "Resistor 470R - 1/4W - 5%",
+        "price": "0.09",
+        "quantity": "100",
+        "total_price": "9.0",
+        "url": "https://www.curtocircuito.com.br/resistor-470r-1-4w-5.html"
+    },
+    "22": {
+        "name": "Led Difuso RGB - 5mm - 4 Terminais - Catodo Comum",
+        "price": "0.81",
+        "quantity": "20",
+        "total_price": "16.2",
+        "url": "https://www.curtocircuito.com.br/led-difuso-rgb-5mm-4-terminais-catodo-comum.html"
+    },
+    "23": {
+        "name": "Led Difuso Azul - 5mm",
+        "price": "0.23",
+        "quantity": "50",
+        "total_price": "11.5",
+        "url": "https://www.curtocircuito.com.br/led-difuso-azul-5mm.html"
+    },
+    "24": {
+        "name": "Led Difuso Vermelho - 5mm",
+        "price": "0.23",
+        "quantity": "50",
+        "total_price": "11.5",
+        "url": "https://www.curtocircuito.com.br/led-difuso-vermelho-5mm.html"
+    },
+    "25": {
+        "name": "Led Difuso Verde - 5mm",
+        "price": "0.23",
+        "quantity": "50",
+        "total_price": "11.5",
+        "url": "https://www.curtocircuito.com.br/led-difuso-verde-5mm.html"
+    },
+    "26": {
+        "name": "Led Difuso Amarelo - 5mm",
+        "price": "0.23",
+        "quantity": "50",
+        "total_price": "11.5",
+        "url": "https://www.curtocircuito.com.br/led-difuso-amarelo-5mm.html"
+    },
+    "27": {
+        "name": "Diodo Retificador 1N4007 - 1000V / 1A",
+        "price": "0.18",
+        "quantity": "50",
+        "total_price": "9.0",
+        "url": "https://www.curtocircuito.com.br/diodo-retificador-1n4007-1000v-1a.html"
+    },
+    "28": {
+        "name": "Buzzer 12mm - Auto Oscilante - 5V",
+        "price": "2.52",
+        "quantity": "20",
+        "total_price": "50.4",
+        "url": "https://www.curtocircuito.com.br/buzzer-12mm-auto-oscilante-5v.html"
+    },
+    "29": {
+        "name": "Chave T\u00e1ctil KFC-A06 - 6x6x5 mm - 2 Terminais",
+        "price": "0.18",
+        "quantity": "100",
+        "total_price": "18.0",
+        "url": "https://www.curtocircuito.com.br/chave-tactil-kfc-a06-6x6x5-mm-2-terminais.html"
+    },
+    "30": {
+        "name": "Protoboard 830 Pontos",
+        "price": "14.31",
+        "quantity": "10",
+        "total_price": "143.1",
+        "url": "https://www.curtocircuito.com.br/protoboard-830-pontos.html"
+    },
+    "31": {
+        "name": "Caixa Organizadora - SB-121",
+        "price": "31.95",
+        "quantity": "10",
+        "total_price": "319.5",
+        "url": "https://www.curtocircuito.com.br/caixa-organizadora-sb-121.html"
+    },
+    "32": {
+        "name": "Kit Jumper F\u00eamea F\u00eamea - 20 p\u00e7s",
+        "price": "4.05",
+        "quantity": "10",
+        "total_price": "40.5",
+        "url": "https://www.curtocircuito.com.br/kit-jumper-femea-femea-20-pcs.html"
+    },
+    "33": {
+        "name": "Kit Jumper Macho Macho - 20 p\u00e7s",
+        "price": "4.05",
+        "quantity": "10",
+        "total_price": "40.5",
+        "url": "https://www.curtocircuito.com.br/kit-jumper-macho-macho-20-pcs.html"
+    },
+    "34": {
+        "name": "Kit Jumper Macho F\u00eamea - 20 p\u00e7s",
+        "price": "4.05",
+        "quantity": "10",
+        "total_price": "40.5",
+        "url": "https://www.curtocircuito.com.br/kit-jumper-macho-femea-20-pcs.html"
+    },
+    "35": {
+        "name": "Placa DOIT ESP32 - ESP32-WROOM-32D - WiFi / Bluetooth",
+        "price": "47.7",
+        "quantity": "10",
+        "total_price": "477.0",
+        "url": "https://www.curtocircuito.com.br/placa-doit-esp32-esp32-wroom-32d-wifi-bluetooth.html"
+    },
+    "36": {
+        "name": "M\u00f3dulo Driver Ponte H - L298N",
+        "price": "15.75",
+        "quantity": "10",
+        "total_price": "157.5",
+        "url": "https://curtocircuito.com.br/modulo-driver-ponte-h-l298n.html"
+    },
+    "37": {
+        "name": "Kit Motor Dc 3-6v + Roda - Redutor Plastico",
+        "price": "16.11",
+        "quantity": "10",
+        "total_price": "161.1",
+        "url": "https://curtocircuito.com.br/kit-motor-dc-3-6v-roda-redutor-plastico.html"
+    },
+    "total": "$2972.6"
+}

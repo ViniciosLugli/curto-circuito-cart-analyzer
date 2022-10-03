@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 class Item:
     name = None
     url = None
@@ -20,6 +23,9 @@ class Item:
     def __repr__(self) -> str:
         return self.__str__()
 
+    def __mul__(self, multiplier: int) -> Item:
+        return Item(self.name, self.url, self.price, self.quantity * multiplier)
+
     @staticmethod
     def header() -> list:
         return [attr for attr in dir(Item)
@@ -31,3 +37,4 @@ if __name__ == '__main__':
     print(item)
     print(item.total_price)
     print(Item.header())
+    print(item * 2)

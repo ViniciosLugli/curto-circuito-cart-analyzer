@@ -21,6 +21,7 @@ class CsvManager(Manager):
             f.write(",".join(header))
             for item in cart.items:
                 attributes = [str(getattr(item, attr)) for attr in header]
+                attributes = [attr.replace(',', '.') for attr in attributes]
                 line = ",".join(attributes)
                 f.write(f'\n{line}')
 
