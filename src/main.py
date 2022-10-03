@@ -16,7 +16,6 @@ def test_cclinks() -> None:
     cart = CCLinks('data/items_raw_example.json').as_cart
 
     cart = cart * 10
-
     Exporter.to_csv(cart)
     Exporter.to_json(cart)
 

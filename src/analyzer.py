@@ -15,7 +15,7 @@ class CCJson:
         self.json_file_path = json_file_path
 
     def __read_json(self) -> dict:
-        with open(self.json_file_path, 'r') as f:
+        with open(self.json_file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
 
     def __json_item_to_object(self, json_item: dict) -> Item:
@@ -47,7 +47,7 @@ class CCLinks:
         self.links_file_path = links_file_path
 
     def __read_json(self) -> dict:
-        with open(self.links_file_path, 'r') as f:
+        with open(self.links_file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
 
     def __update_items_data(self, boleto: bool = boleto) -> None:
